@@ -26,8 +26,7 @@ ChartJS.register(
 );
 
 const AdminDashboard = () => {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const [stats, setStats] = useState({
+    const [stats] = useState({
         totalOrders: 1247,
         totalRevenue: 45280,
         totalScans: 8923,
